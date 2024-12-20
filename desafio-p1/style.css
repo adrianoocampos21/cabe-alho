@@ -1,0 +1,96 @@
+/*
+Paleta de Cores "Tech e Minimalista"
+Base:
+Azul Escuro (#1E2A47): Um tom profundo e confiável, excelente para transmitir tecnologia.
+Cinza Claro (#E0E0E0): Para criar uma base neutra que não tire a atenção dos elementos principais.
+
+Acentos:
+Roxo (#9B4DFF): Um toque de cor vibrante que traz personalidade ao design, perfeito para destacar botões e ícones interativos.
+Laranja (#FF7043): Um tom de laranja mais suave, que pode ser usado para chamativas chamadas de ação ou detalhes interativos.
+T
+exto:
+Branco (#FFFFFF): Para garantir que o texto se destaque contra os tons escuros e não sobrecarregue o design.
+*/
+
+/*
+Paleta de Cores "Gamer Retro"
+Base:
+Preto (#000000): Para o fundo principal, criando um contraste forte e elegante.
+Verde Neon (#00FF00): Inspirado em jogos clássicos de arcade e tecnologias, dando um toque de nostalgia e modernidade.
+
+Acentos:
+Amarelo Dourado (#FFD700): Usado para chamar atenção para elementos importantes como ícones, títulos ou detalhes no design.
+Cinza Escuro (#333333): Para o fundo e áreas que precisam de um toque mais neutro, sem perder a modernidade.
+
+Texto:
+Branco (#FFFFFF): Usado no texto para garantir boa legibilidade e contraste com o fundo preto.
+*/
+
+:root {
+    --preto: #000000;
+    --verdeneon: #00ff00d5;
+    --amarelodourado: #FFD700;
+    --cinzaescuro: #333333;
+    --branco: #dbdbdb;
+
+    --Roxo: #9B4DFF;
+    --fundo-main0: rgb(234, 234, 234);
+    --fundo-main1: rgb(180, 180, 180);
+    --fundo-main2: rgb(121, 121, 121);
+    --sombra: 0px 0px 8px rgba(0, 0, 0, 0.497);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to top, var(--preto), transparent, var(--preto));
+    background-attachment: fixed;
+}
+
+header {
+    background-color: var(--branco);
+    max-width: 100%;
+    margin: auto;
+
+}
+
+#principal {
+    background-color: var(--branco);
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+}
+
+nav {
+    margin: 30px;
+}
+
+nav ul {
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+a:after {
+    content: '\002BC6';
+}
+
+
+
+img {
+    max-width: 80px;
+}
